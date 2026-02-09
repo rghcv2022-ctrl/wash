@@ -90,7 +90,7 @@ def clean_windows_update():
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
     print("==========================================")
-    print("     Python C盘深度清理工具 v1.0")
+    print("     zht C盘深度清理工具 v1.0")
     print("==========================================\n")
 
     if not is_admin():
