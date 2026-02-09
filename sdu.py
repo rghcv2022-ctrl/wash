@@ -45,7 +45,7 @@ CLEAN_TARGETS = {
 class CleanerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Python C盘深度清理大师 v2.0")
+        self.root.title("zht C盘深度清理大师 v2.0")
         self.root.geometry("900x650")
         
         # 样式设置
