@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zht-cleaner"
+version = "2.1.0"
+description = "Windows C 盘深度清理工具，提供 CLI 与 Tkinter GUI"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+zht-clean-cli = "zht_cleaner.cli:main"
+
+[project.gui-scripts]
+zht-clean-gui = "zht_cleaner.gui:main"
+
+[tool.setuptools.packages.find]
+include = ["zht_cleaner*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

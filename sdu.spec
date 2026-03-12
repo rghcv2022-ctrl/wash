@@ -3,7 +3,7 @@
 
 a = Analysis(
     ['sdu.py'],
-    pathex=[],
+    pathex=['.'],
     binaries=[],
     datas=[],
     hiddenimports=[],
